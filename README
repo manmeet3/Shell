@@ -1,0 +1,11 @@
+Manmeet Singh - CS111 Spring 2016 Assignment 1
+
+A small subset of a UNIX like shell supporting:
+1) Commands with no arguments
+2) Commands with one or more arguments. eg. ls -la foo
+3) Commands with input redirection. < 
+4) Commands with output redirection. > and >> 
+5) Commands with single pipes
+6) Sequences of  commands separated by semicolons. eg. ls; cat foo
+7) Changing directories
+
