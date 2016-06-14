@@ -163,7 +163,7 @@ int do_pipes(char** args, Arg_info* cmd){
     memset(comm, 0, sizeof (comm));
     cmd_counter=comm;
   }
-  // if (in != 0) dup2(in, 0);       COPYING THE ORIGINAL FILE DESCRIPTOR OVER STDIN RESULTS IN SEGFAULT
+  // if (in != 0) dup2(in, 0);    
 
   for(;args[j] != NULL; j++){
     *cmd_counter++ = args[j];
